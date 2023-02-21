@@ -1,6 +1,6 @@
 # MINIMAL REDDIT CLIENT
 
-A minimal reddit client to browse reddit (obviously)
+A minimal reddit client to browse reddit (obviously).
 Capstone project for Codecademy Full Stack Developer course (React-Redux module).
 
 ## Techstack
@@ -14,5 +14,5 @@ Capstone project for Codecademy Full Stack Developer course (React-Redux module)
 
 ## How to use
 
-`npm install`
-`npm run`
+1. `npm install`
+2. `npm run`
