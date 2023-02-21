@@ -1,8 +1,10 @@
 import { SearchIcon } from "@chakra-ui/icons";
 import { Flex, Input, InputGroup, InputLeftElement } from "@chakra-ui/react";
-import React from "react";
+import React, { useState } from "react";
 
 export default function Searchbar(props) {
+  const [searchText, setSearchText] = useState("");
+
   return (
     <Flex marginLeft="20px" marginRight="2" align="center" flexGrow={1}>
       <InputGroup>

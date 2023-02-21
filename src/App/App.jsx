@@ -1,11 +1,12 @@
 import { useState } from "react";
-import Navbar from "./component/Navbar";
+import Navbar from "../component/Navbar";
+import Post from "../features/Post/Post";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <h1>Hello World</h1>
+      <Post />
     </div>
   );
 }
