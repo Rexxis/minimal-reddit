@@ -26,19 +26,19 @@ export default function PostItem(props) {
         borderRadius={4}
       >
         <Icon
-          as={ArrowUpIcon} // TODO: search for IoArrowUpDown
+          as={ArrowUpIcon}
           color={userVoteValue === 1 ? "brand.100" : "gray.400"}
           fontSize={22}
           cursor="pointer"
-          //   TODO: onVote action
+          //   TODO: onVote action  (dispatch userVoteValue = 1)
         />
         <Text>{getFormattedNumber(ups)}</Text>
         <Icon
-          as={ArrowDownIcon} // TODO: search for IoArrowUpDown
+          as={ArrowDownIcon}
           color={userVoteValue === -1 ? "#4379ff" : "gray.400"}
           fontSize={22}
           cursor="pointer"
-          //   TODO: onVote action
+          //   TODO: onVote action (dispatch userVoteValue = -1)
         />
       </Flex>
       <Flex direction="column" width="100%">
