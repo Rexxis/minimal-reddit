@@ -22,7 +22,7 @@ export default function PostItem(props) {
         align="center"
         bg="gray.100"
         p={2}
-        width="40px"
+        width="45px"
         borderRadius={4}
       >
         <Icon
