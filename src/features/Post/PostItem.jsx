@@ -55,7 +55,7 @@ export default function PostItem(props) {
           <Text fontSize="10pt">{body}</Text>
           {img && (
             <Flex justify="center" align="center" p={2}>
-              <Image src={img} maxHeight="600px" />
+              <Image src={img} maxHeight="540px" />
             </Flex>
           )}
         </Stack>
