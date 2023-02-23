@@ -5,3 +5,13 @@ export const getFormattedTime = (timestamp) => {
 
     return `${formattedDate} ${formattedTime}`
 }
+
+export const getFormattedNumber = (number) => {
+    const formatter = new Intl.NumberFormat('en', {notation: 'compact', minimumFractionDigits: 1, maximumFractionDigits: 1})
+    return formatter.format(number)
+}
+
+export const getFormattedComment = (number) => {
+    const formatter = new Intl.NumberFormat('en', {notation: 'compact', maximumFractionDigits: 1})
+    return formatter.format(number)
+}
