@@ -1,6 +1,6 @@
 import React from "react";
 import Searchbar from "../features/Search/Searchbar";
-import { Flex, Image } from "@chakra-ui/react";
+import { Flex, Image, Text } from "@chakra-ui/react";
 
 export default function Navbar() {
   return (
@@ -12,7 +12,9 @@ export default function Navbar() {
           height="46px"
           display={{ base: "none", md: "unset" }}
         />
-        Minimal
+        <Text align="center" justify="center" fontWeight={700} mt={0.5}>
+          Minimal
+        </Text>
       </Flex>
       <Searchbar />
     </Flex>
