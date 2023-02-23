@@ -1,6 +1,6 @@
 # MINIMAL REDDIT CLIENT
 
-A minimal reddit client to browse reddit (obviously).
+A minimal one-page reddit client to browse reddit.
 Capstone project for Codecademy Full Stack Developer course (React-Redux module).
 
 ## Techstack
